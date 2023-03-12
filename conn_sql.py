@@ -39,6 +39,6 @@ async def description_command(message: types.Message):
                            parse_mode="HTML")
 
 
-#вернул обратно
+# проверка выгрузки
 if __name__ == '__main__':
     executor.start_polling(dp)
