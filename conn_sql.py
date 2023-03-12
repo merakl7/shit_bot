@@ -38,6 +38,7 @@ async def description_command(message: types.Message):
                            text=que[0],
                            parse_mode="HTML")
 
-    #измен
+
+#вернул обратно
 if __name__ == '__main__':
     executor.start_polling(dp)
