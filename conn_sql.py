@@ -37,5 +37,7 @@ async def description_command(message: types.Message):
     await bot.send_message(chat_id=message.from_user.id,
                            text=que[0],
                            parse_mode="HTML")
+
+    #тут изменил
 if __name__ == '__main__':
     executor.start_polling(dp)
